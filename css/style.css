@@ -52,11 +52,11 @@ body {
   color: #1b1c21;
 }
 
-.link:focus {
+.link:hover {
   border: none;
   color: #7e7e82;
 }
-.link:focus::before {
+.link:hover::before {
   content: '';
   background: #41f6d7;
   width: 4px;
@@ -104,15 +104,18 @@ button:hover {
 .footer__lang {
   display: flex;
   gap: 7px;
-  font-family: TT Lakes;
+  font-family: TT Lakes Demi;
   font-size: 16px;
 }
 .ru {
   color: #7e7e82;
+  font-family: inherit;
 }
 .en {
   color: #1b1c21;
+  font-family: inherit;
 }
 .ch {
   color: #1b1c21;
+  font-family: inherit;
 }
