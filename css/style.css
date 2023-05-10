@@ -52,11 +52,11 @@ body {
   color: #1b1c21;
 }
 
-.link:hover {
+.link:focus {
   border: none;
   color: #7e7e82;
 }
-.link:hover::before {
+.link:focus::before {
   content: '';
   background: #41f6d7;
   width: 4px;
@@ -86,7 +86,6 @@ button:hover {
   padding-left: 24px;
   margin-top: 268px;
 }
-
 .footer__buttons {
   display: flex;
   gap: 16px;
